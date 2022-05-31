@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    padding: 10px;
+}
+
+/* Inicio barra navegacion */
+.navbar {
+    background-color: #373A3C;
+    width: 100%;
+}
+
+.logo-falso {
+    color: #FFFFFF;
+    font-size: 37px;
+    font-family: 'Lobster Two';
+}
+
+.enunciado {
+    font-size: 40px;
+    font-family: 'Cabin Condensed', sans-serif;
+    color: #373A3C;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.detalles {
+    color: #373A3C;
+    font-size: 20px;
+    font-family: 'Cabin Condensed';
+    font-weight: bold;
+}
+
+/* Inicio carrusel */
+.size-img-carrusel {
+    width: 233px;
+    height: 170px;
+}
+
+/* Inicio receta */
+li {
+    list-style: none;
+}
+
+h6 {
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#listado.dbl {
+    color: #DC3545;
+}
+
+#elaboracion.dbl {
+    color: #DC3545;
+}
+
+
+/* Inicio suscripción */
+.suscripcion {
+    /* height: 534px; */
+    background-color: #DC3545;
+    width: 100%;
+    padding: 120px;
+}
+
+.info-suscripcion {
+    font-size: 40px;
+}
+
+.envio-recetas {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.font-lobster {
+    font-family: 'Lobster Two';
+}
+
+/* Inicio footer*/
+.ri-comida {
+    background-color: #373A3C;
+    height: 125px;
+    width: 100%;
+}
+
+.info-ri-comida {
+    font-family: 'Lobster Two';
+    font-size: 37px;
+    color: #FFFFFF;
+}
+
+@media(max-width:320px) {   
+    .col {
+        text-align: center;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    #receta-completa {
+        font-family: 'Cabin Condensed';
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .elaboracion {
+        font-size: 16px;
+    }
+    .listado {
+        font-size: 16px;
+    }
+    .info-suscripcion {
+        font-size: 30px;
+        text-align: center;
+    }
+    .envio-recetas {
+        font-size: 20px;
+        text-align: center;
+    }
+    .suscripcion {
+        padding: 50px;
+    }
+}
+
